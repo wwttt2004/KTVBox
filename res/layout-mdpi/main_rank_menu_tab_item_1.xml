@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="666.67px">
+
+    <FrameLayout
+        android:id="@+id/ll_top"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_cantonese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:src="@drawable/btn_rank_cantonese"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16.67px"
+            android:layout_marginLeft="1.3px"
+             />
+
+        <ImageButton
+            android:id="@+id/btn_eu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_ranl_eu"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginLeft="780px"
+            android:layout_marginTop="16.67px"
+              />
+        <ImageButton
+            android:id="@+id/btn_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginTop="213.3px"
+            android:src="@drawable/btn_rank_hot" />
+
+        <ImageButton
+            android:id="@+id/btn_fm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginLeft="193.3px"
+            android:layout_marginTop="213.3px"
+            android:src="@drawable/btn_rank_fm" />
+
+        <ImageButton
+            android:id="@+id/btn_xiami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginLeft="584px"
+            android:layout_marginTop="212.3px"
+            android:src="@drawable/btn_rank_xiami" />
+
+        <ImageButton
+            android:id="@+id/btn_bd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginLeft="583.3px"
+            android:layout_marginTop="16.6px"
+            android:src="@drawable/btn_rank_bd" />
+
+        <ImageButton
+            android:id="@+id/btn_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16.6px"
+            android:background="#0000"
+            android:layout_marginLeft="386.67px"
+            android:src="@drawable/btn_rank_qq" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shadow2"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50px"
+        />
+</FrameLayout>

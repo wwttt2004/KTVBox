@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/textGaryBigTitle"
+        android:drawableLeft="@drawable/logo"
+        android:layout_marginLeft="37.33px"
+        android:drawablePadding="6px"
+        android:layout_marginTop="13.3px"
+        android:text="一起唱" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="1px"
+        android:layout_height="26.67px"
+        android:layout_marginTop="16.67px"
+        android:background="@color/gray_text_color"
+        android:layout_toRightOf="@id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13.3px"
+        />
+
+    <TextView
+        style="@style/textPurpleTitle"
+        android:id="@+id/tv_name"
+        android:text="好乐迪量版式KTV"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="13.3px"
+        android:layout_toRightOf="@id/v_divider" />
+
+    <Button
+        android:id="@+id/btn_weather"
+        style="@style/textGaryNoramlTitle"
+        android:drawableLeft="@drawable/weather_tag_cloudy"
+        android:layout_toRightOf="@id/tv_name"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="13.3px"
+        android:drawablePadding="12.67px"
+        android:gravity="center_vertical"
+        android:background="#0000"
+        android:text="13°-20°"
+        android:layout_alignBaseline="@id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_no"
+        style="@style/textGaryNoramlTitle"
+        android:text="房台号:123467"
+        android:layout_marginTop="13.3px"
+        android:layout_marginLeft="80px"
+        android:layout_toRightOf="@id/btn_weather" />
+
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_request_ordersongs"
+        android:layout_marginTop="-6.67px"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="wrap_content"
+        android:background="@drawable/search_normal"
+        android:paddingLeft="37.3px"
+        android:gravity="center_vertical"
+        android:layout_marginTop="18.3px"
+        android:hint="搜索歌手名或歌曲名"
+        android:textColorHint="@color/gray_text_color"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btn_weather"
+        android:layout_marginRight="20px"
+        android:textCursorDrawable="@null"
+        android:textColor="#fff"
+        android:layout_toLeftOf="@id/btn_order" />
+
+
+</RelativeLayout>

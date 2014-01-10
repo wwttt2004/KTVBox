@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <total>1</total>
+  <page>1</page>
+  <activitys>
+    <activity>
+      <activityid>0</activityid>
+      <image>http://www.sinaimg.cn/blog/qingzujian/1.jpeg</image>
+      <title>圣诞特优</title>
+      <description>一起唱圣诞特优</description>
+      <type>1</type>
+    </activity>
+  </activitys>
+</root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <path>http://localhost/VideoFiles/shaonvshidai-720P.MP4</path>
+  <orginal>orginal</orginal>
+  <accompaniment>accompaniment</accompaniment>
+  <videotype>H264</videotype>
+  <audiotype>aac</audiotype>
+  <backup>http://192.168.1.72/VideoFiles/shaonvshidai-720P.MP4</backup>
+</root>

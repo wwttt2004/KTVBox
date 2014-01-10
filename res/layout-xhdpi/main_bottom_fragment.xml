@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qwerjk="http://schemas.android.com/apk/res/com.yiqiding.ktvbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:gravity="left|bottom"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip">
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:layout_marginLeft="90.6px"
+            android:id="@+id/btn_volume"
+            android:background="@drawable/btn_volume" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_origin"
+            android:background="@drawable/btn_original"
+            android:layout_toRightOf="@id/btn_volume" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_resing"
+            android:background="@drawable/btn_again"
+            android:layout_toRightOf="@id/btn_origin" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_next"
+            android:background="@drawable/btn_change_song"
+            android:layout_toRightOf="@id/btn_resing" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_back"
+            android:background="@drawable/btn_bottom_back"
+            android:layout_toRightOf="@id/btn_next" />
+
+        <CheckBox
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_play"
+            android:button="@null"
+            android:background="@drawable/cb_bottom_play_ctrl"
+            android:layout_toRightOf="@id/btn_back"
+            android:layout_marginTop="-15dip"
+            android:layout_width="170.79px"
+            android:layout_height="170.79px" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_forward"
+            android:background="@drawable/btn_bottom_forward"
+            android:layout_toRightOf="@id/btn_play" />
+
+        <CheckBox
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_quite"
+            android:button="@null"
+            android:background="@drawable/cb_bottom_voice_ctrl"
+            android:layout_toRightOf="@id/btn_forward" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_call"
+            android:background="@drawable/btn_bottom_call"
+            android:layout_toRightOf="@id/btn_quite" />
+
+        <Button
+            style="@style/bottomMenuNormalButton"
+            android:id="@+id/btn_effect"
+            android:background="@drawable/btn_bottom_effect"
+            android:layout_toRightOf="@id/btn_call" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_ordered"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="180px"
+        android:layout_width="235px"
+        android:background="@drawable/music_bg_normal"
+        android:layout_height="71.34px">
+    <com.yiqiding.ktvbox.widget.MagicTextView
+        android:id="@+id/tv_order_tips"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="30px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:textColor="#9bffffff"
+        android:text="已点歌曲" />
+        <com.yiqiding.ktvbox.widget.MagicTextView
+            android:id="@+id/tv_order_num"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="20px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#9bff9000"
+            android:textSize="20sp"
+            android:shadowRadius="60"
+            android:paddingRight="10dip"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:text="23" />
+    </RelativeLayout>
+</FrameLayout>

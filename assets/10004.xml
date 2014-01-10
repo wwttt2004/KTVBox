@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <total>1</total>
+  <page>1</page>
+  <musics>
+    <music>
+      <musicid>0</musicid>
+      <name>可爱女人</name>
+      <singers>
+        <singer>
+          <singerid>0</singerid>
+          <name>周杰伦</name>
+          <type>4</type>
+          <nation>0</nation>
+          <image>http://f.hiphotos.baidu.com/baike/s%3D200/sign=40227876902397ddd2799f046983b216/35a85edf8db1cb136c4e7d82dc54564e9358d109b3de5347.jpg</image>
+        </singer>
+      </singers>
+      <country>0</country>
+      <language>0</language>
+      <type>8</type>
+      <length>239</length>
+      <image>http://img2.bdstatic.com/img/image/357377adab44aed2e73e4042c5a8501a18b86d6fad3.jpg</image>
+    </music>
+    <music>
+      <musicid>1</musicid>
+      <name>龙卷风</name>
+      <singers>
+        <singer>
+          <singerid>0</singerid>
+          <name>周杰伦</name>
+          <type>4</type>
+          <nation>0</nation>
+          <image>http://f.hiphotos.baidu.com/baike/s%3D200/sign=40227876902397ddd2799f046983b216/35a85edf8db1cb136c4e7d82dc54564e9358d109b3de5347.jpg</image>
+        </singer>
+      </singers>
+      <country>0</country>
+      <language>0</language>
+      <type>8</type>
+      <length>251</length>
+      <image>http://c.hiphotos.baidu.com/baike/s%3D200/sign=b310c77f9d82d158bf825eb1b00b19d5/80cb39dbb6fd5266b20f7d85aa18972bd50735fae6cd1646.jpg</image>
+    </music>
+  </musics>
+</root>

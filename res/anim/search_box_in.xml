@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    >
+    <alpha
+        android:fillAfter="true"
+        android:duration="300"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        />
+<!--    <scale
+        android:fillAfter="true"
+        android:pivotX="100%"
+        android:pivotY="50%"
+        android:fromXScale="100.0%"
+        android:toXScale="200%"
+        android:duration="300"
+        android:startOffset="300"
+        />-->
+</set>

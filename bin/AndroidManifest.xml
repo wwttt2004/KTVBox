@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yiqiding.ktvbox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".globalcontrol.ApplicationExtend"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".view.MainViewActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivitysActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MainGamesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MainRankActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MainServicesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MainSingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.PopupWindowSangSongsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.PopupWindowOrdereSongsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.SingerStartAllViewActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

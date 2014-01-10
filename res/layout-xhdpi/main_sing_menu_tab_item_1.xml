@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_gravity="right"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="900px">
+
+        <ImageButton
+            android:id="@+id/btn_star"
+            android:layout_width="435px"
+            android:layout_height="730px"
+            android:src="@drawable/btn_sing_star"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginTop="20px" />
+
+        <ImageButton
+            android:id="@+id/btn_new_songs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="298px"
+            android:src="@drawable/btn_sing_new"
+            android:scaleType="centerCrop"
+            android:background="#0000" />
+
+
+        <ImageButton
+            android:id="@+id/btn_yz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:layout_marginLeft="295px"
+            android:layout_marginTop="315px"
+            android:src="@drawable/btn_sing_yz" />
+
+
+        <ImageButton
+            android:id="@+id/btn_songname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="#0000"
+            android:src="@drawable/btn_sing_name"
+            android:layout_marginTop="317px"
+            android:layout_marginLeft="590px" />
+
+        <ImageButton
+            android:id="@+id/btn_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875px"
+            android:layout_marginTop="20px"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_sing_cate"
+            android:background="#0000" />
+
+        <ImageButton
+            android:id="@+id/btn_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_sing_ad"
+            android:layout_marginTop="20px"
+            android:background="#0000"
+            android:layout_marginLeft="1172px"
+            />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shadow1"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="74px"
+        />
+    <ImageView
+        android:id="@+id/iv_ad_reflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="1172px"
+        />
+</FrameLayout>

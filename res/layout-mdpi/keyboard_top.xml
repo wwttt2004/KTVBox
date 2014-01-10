@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/keyboard_top_bg"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/keyboard_top_height">
+    <!--A view to show result-->
+    <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|left"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/keyboard_top_txt_padding"
+            android:textSize="@dimen/keyboard_top_res_text_size"
+            android:textColor="@color/keyboard_res_txt"
+            android:singleLine="true"
+            />
+    <ImageView
+            android:id="@+id/iv_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_key_hide_keyboard"
+            android:padding="@dimen/keyboard_top_common_padding"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/keyboard_top_right_margin"
+            />
+    <ImageView
+            android:id="@+id/iv_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_candidate_separator_grey"
+            android:padding="@dimen/keyboard_top_common_padding"
+            android:layout_alignBaseline="@id/iv_hide"
+            android:layout_toLeftOf="@id/iv_hide"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/keyboard_top_right_margin"
+            />
+</RelativeLayout>

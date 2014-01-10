@@ -1,0 +1,126 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:launchMode">singleTask</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BaseDialogTheme" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="KeyBoardTheme" parent="BaseDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="KeyBoardButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_keybutton</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:layout_marginRight">6dip</item>
+        <item name="android:layout_marginTop">6dip</item>
+        <item name="android:layout_marginBottom">6dip</item>
+    </style>
+
+
+    <style name="PopUpWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_right_in_percent</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out_percent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="PopUpWindowVolumeAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_volume_scale_in_percent</item>
+        <item name="android:windowExitAnimation">@anim/popup_volume_scale_out_percent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="PopUpWindowEffectAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_effect_scale_in_percent</item>
+        <item name="android:windowExitAnimation">@anim/popup_effect_scale_out_percent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="bottomMenuNormalButton">
+        <item name="android:layout_width">129.28px</item>
+        <item name="android:layout_height">161.6px</item>
+        <item name="android:layout_marginLeft">28px</item>
+    </style>
+
+    <style name="tabMenuRadioButton">
+        <item name="android:layout_width">219.33px</item>
+        <item name="android:layout_height">177.55px</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">35px</item>
+    </style>
+    <style name="tabMenuRadioButtonSelect">
+        <item name="android:layout_width">219.33px</item>
+        <item name="android:layout_height">177.55px</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">127.74px</item>
+    </style>
+    <style name="tabMenuPanelItemText">
+        <item name="android:layout_height">177.55px</item>
+    </style>
+    
+    <style name="tabMenuPanleItemIcon">
+        <item name="android:layout_width">169.31px</item>
+        <item name="android:layout_height">169.31px</item>
+    </style>
+    <style name="tabMenuPanleItemArrow">
+        <item name="android:layout_width">24.63px</item>
+        <item name="android:layout_height">46.52px</item>
+    </style>
+
+    <style name="textGaryBigTitle">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textGaryNoramlTitle">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textPurpleTitle">
+        <item name="android:textColor">@color/purple_text_color</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="btnVolumeBarMarkStyle">
+        <item name="android:layout_width">61px</item>
+        <item name="android:layout_height">35px</item>
+        <item name="android:background">@drawable/ctrl_volume_mark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#B77F15</item>
+        <item name="android:paddingLeft">15px</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingBottom">5px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">195px</item>
+    </style>
+
+</resources>

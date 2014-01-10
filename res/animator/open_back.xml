@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         <translate
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:fromXDelta="10%p"
+        android:toXDelta="0"
+        android:duration="300"/>
+    -->
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:propertyName="x"
+        android:valueFrom="-1000"
+        android:valueTo="0"
+        android:valueType="floatType" />
+<!--     <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:propertyName="scaleX"
+        android:valueFrom=".95"
+        android:valueTo="1.0"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:propertyName="scaleY"
+        android:valueFrom=".95"
+        android:valueTo="1.0"
+        android:valueType="floatType" /> -->
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:propertyName="alpha"
+        android:valueFrom="0.1"
+        android:valueTo="1.0"
+        android:valueType="floatType" />
+    <!--
+         <scale
+        android:duration="300"
+        android:fromXScale=".95"
+        android:fromYScale=".95"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:pivotX="0"
+        android:pivotY="50%"
+        android:startOffset="200"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+    -->
+<!-- 
+    <alpha
+        android:fromAlpha="0.5"
+        android:toAlpha="1" /> -->
+
+</set>

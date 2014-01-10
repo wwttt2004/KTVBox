@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50px"
+    >
+
+        <FrameLayout
+            android:layout_width="420px"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="80px"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/rg_menu"
+                android:layout_marginLeft="-60dip"
+                android:gravity="center_horizontal"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <CheckBox
+                        style="@style/tabMenuRadioButton"
+                        android:id="@+id/rb_sing"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/requesting_music_text_normal"
+                        android:button="@null" />
+
+                    <CheckBox
+                        android:id="@+id/rb_rank"
+                        style="@style/tabMenuRadioButton"
+                        android:background="@drawable/rank_text_normal"
+                        android:layout_below="@id/rb_sing"
+                        android:layout_marginTop="-70px"
+                        android:button="@null" />
+
+                    <CheckBox
+                        android:id="@+id/rb_service"
+                        style="@style/tabMenuRadioButton"
+                        android:background="@drawable/service_text_normal"
+                        android:layout_below="@id/rb_rank"
+                        android:layout_marginTop="-70px"
+                        android:button="@null" />
+
+                    <CheckBox
+                        android:id="@+id/rb_game"
+                        style="@style/tabMenuRadioButton"
+                        android:background="@drawable/game_text_normal"
+                        android:layout_below="@id/rb_service"
+                        android:layout_marginTop="-70px"
+                        android:button="@null" />
+
+                    <CheckBox
+                        android:id="@+id/rb_activity"
+                        style="@style/tabMenuRadioButton"
+                        android:background="@drawable/activity_text_normal"
+                        android:layout_below="@id/rb_game"
+                        android:layout_marginTop="-70px"
+                        android:button="@null" />
+                </RelativeLayout>
+            </RadioGroup>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal">
+                <!--order song-->
+                <FrameLayout
+                    android:id="@+id/fl_music"
+                    style="@style/tabMenuPanelItemText"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent">
+
+                    <ImageView
+                        style="@style/tabMenuPanleItemIcon"
+                        android:id="@+id/request_music_icon"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="invisible"
+                        android:src="@drawable/requesting_music_icon" />
+
+                    <ImageView
+                        android:id="@+id/request_music_text"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="invisible"
+                        style="@style/tabMenuRadioButtonSelect"
+                        android:src="@drawable/requesting_music_text_select" />
+
+                    <ImageView
+                        style="@style/tabMenuPanleItemArrow"
+                        android:id="@+id/request_music_arrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="200dip"
+                        android:visibility="invisible"
+                        android:src="@drawable/requesting_music_arrow" />
+                </FrameLayout>
+                <!--rank-->
+                <FrameLayout
+                    android:id="@+id/fl_rank"
+                    android:layout_below="@id/fl_music"
+                    android:layout_marginTop="-70px"
+                    style="@style/tabMenuPanelItemText"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/rank_icon"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuPanleItemIcon"
+                        android:visibility="invisible"
+                        android:src="@drawable/rank_icon" />
+
+                    <ImageView
+                        android:id="@+id/rank_text"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuRadioButtonSelect"
+                        android:visibility="invisible"
+                        android:src="@drawable/rank_text_select" />
+
+                    <ImageView
+                        android:id="@+id/rank_arrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="200dip"
+                        style="@style/tabMenuPanleItemArrow"
+                        android:src="@drawable/rank_arrow"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <!--service-->
+                <FrameLayout
+                    style="@style/tabMenuPanelItemText"
+                    android:gravity="center"
+                    android:id="@+id/fl_service"
+                    android:layout_below="@id/fl_rank"
+                    android:layout_marginTop="-70px"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/service_icon"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuPanleItemIcon"
+                        android:visibility="invisible"
+                        android:src="@drawable/service_icon" />
+
+                    <ImageView
+                        android:id="@+id/service_text"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuRadioButtonSelect"
+                        android:visibility="invisible"
+                        android:src="@drawable/service_text_select" />
+
+                    <ImageView
+                        android:id="@+id/service_arrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="200dip"
+                        style="@style/tabMenuPanleItemArrow"
+                        android:src="@drawable/service_arrow"
+                        android:visibility="invisible" />
+                </FrameLayout>
+                <!--game-->
+                <FrameLayout
+                    style="@style/tabMenuPanelItemText"
+                    android:gravity="center"
+                    android:id="@+id/fl_game"
+                    android:layout_below="@id/fl_service"
+                    android:layout_marginTop="-70px"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/game_icon"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuPanleItemIcon"
+                        android:visibility="invisible"
+                        android:src="@drawable/game_icon" />
+
+                    <ImageView
+                        style="@style/tabMenuRadioButtonSelect"
+                        android:id="@+id/game_text"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="invisible"
+                        android:src="@drawable/game_text_select" />
+
+                    <ImageView
+                        style="@style/tabMenuPanleItemArrow"
+                        android:id="@+id/game_arrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="200dip"
+                        android:visibility="invisible"
+                        android:src="@drawable/game_arrow" />
+                </FrameLayout>
+                <!--activity-->
+                <FrameLayout
+                    style="@style/tabMenuPanelItemText"
+                    android:gravity="center"
+                    android:id="@+id/fl_activity"
+                    android:layout_below="@id/fl_game"
+                    android:layout_marginTop="-70px"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/activity_icon"
+                        android:visibility="invisible"
+                        android:layout_gravity="center_vertical"
+                        style="@style/tabMenuPanleItemIcon"
+                        android:src="@drawable/activity_icon" />
+
+                    <ImageView
+                        android:id="@+id/activity_text"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="invisible"
+                        style="@style/tabMenuRadioButtonSelect"
+                        android:src="@drawable/activity_text_select" />
+
+                    <ImageView
+                        style="@style/tabMenuPanleItemArrow"
+                        android:id="@+id/activity_arrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="200dip"
+                        android:visibility="invisible"
+                        android:src="@drawable/activity_arrow" />
+                </FrameLayout>
+            </RelativeLayout>
+
+        </FrameLayout>
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="fill_parent"
+            android:layout_gravity="right"
+            android:layout_height="fill_parent"
+            >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:name="com.yiqiding.ktvbox.widget.CenterContentFragment"
+                android:layout_marginLeft="330px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:visibility="gone" />
+        </TabHost>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/v_main_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <fragment
+        android:id="@+id/fg_top"
+        android:name="com.yiqiding.ktvbox.widget.fragment.MainTopFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@+id/fg_center"
+        android:name="com.yiqiding.ktvbox.widget.fragment.MainCenterFragment"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="100px"
+        android:layout_height="fill_parent" />
+    <fragment
+        android:id="@+id/fg_bottom"
+        android:name="com.yiqiding.ktvbox.widget.fragment.MainBottomFragment"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="300px" />
+
+</FrameLayout>

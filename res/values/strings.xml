@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KTVBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="download_video">DownloadVideo</string>
+
+    <!-- View String -->
+    <string name="menu_pop_star_all">全部</string>
+    <string name="menu_pop_star_zh_man">大陆男星</string>
+    <string name="menu_pop_star_zh_woman">大陆女星</string>
+    <string name="menu_pop_star_hktw_man">港台男星</string>
+    <string name="menu_pop_star_hktw_woman">港台女星</string>
+    <string name="menu_pop_star_zh_group">中国组合</string>
+    <string name="menu_pop_star_for_singer">外国歌星</string>
+    <string name="menu_pop_star_for_group">外国组合</string>
+
+    <string name="rank_yqc_title">一起唱FM</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yiqiding.ktvbox"
+              android:orientation="vertical"
+              android:layout_marginTop="-6.67dip"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+        <com.yiqiding.ktvbox.widget.viewflow.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="1066.67px"
+            android:layout_height="526.67px"
+            app:sidebuffer="5"/>
+</LinearLayout>

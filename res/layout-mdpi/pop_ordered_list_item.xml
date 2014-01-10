@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="5.33px"
+    android:paddingLeft="10px"
+    android:paddingBottom="5.33px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <com.yiqiding.ktvbox.widget.MagicTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:text="1.七里香"
+        android:layout_centerVertical="true"
+        />
+    
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="55.63px"
+        android:layout_height="40px"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_pop_ordered_first"
+        android:layout_marginRight="73.3px"
+        />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="55.63px"
+        android:layout_height="40px"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_pop_ordered_delete"
+        android:layout_marginRight="7.33px"
+        />
+    <com.yiqiding.ktvbox.widget.MagicTextView
+        android:id="@+id/tv_state"
+        android:visibility="gone"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:text="正在播放..."
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7.33px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

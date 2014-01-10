@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_main"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/at_bg_blue"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/iv_state"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@drawable/at_tip_on"
+        android:layout_marginLeft="35dip"
+        android:layout_marginTop="9dip" />
+
+    <TextView
+        android:id="@+id/tv_nums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="324人"
+        android:gravity="right|center_vertical"
+        android:textColor="#fff"
+        android:layout_marginRight="55dip"
+        android:layout_marginTop="30dip"
+        android:drawablePadding="5dip"
+        android:textSize="17sp"
+        android:drawableLeft="@drawable/icon_people"
+        android:layout_gravity="right|top" />
+
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="60dip"
+        android:layout_marginBottom="100dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="中国好声音报名"
+            android:textSize="23sp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_starttime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="[开始]11月11号    22:00"
+            android:textSize="17sp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_stoptime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="[结束]11月20号    22:00"
+            android:textSize="17sp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</FrameLayout>

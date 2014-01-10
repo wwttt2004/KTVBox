@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--KeyBoard colors-->
+    <color name="keyboard_bg">#757575</color>
+    <color name="keyboard_top_bg">#434343</color>
+    <color name="keyboard_res_txt">#4ACCFC</color>
+    <color name="keyboard_center_bg">#1B1B1B</color>
+
+    <color name="gray_text_color">#666668</color>
+    <color name="purple_text_color">#8948BE</color>
+    <color name="light_gray_hint_text_color">#26252A</color>
+</resources>

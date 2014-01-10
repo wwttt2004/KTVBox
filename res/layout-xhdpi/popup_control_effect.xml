@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/effect_bg"
+        android:layout_marginTop="52px"
+        android:layout_marginRight="50px">
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="110px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/btn_popup_effect1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/btn_popup_effect2"
+                android:layout_marginTop="10px" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:button="@null"
+                android:background="@drawable/btn_popup_effect3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:layout_marginTop="10px"
+                android:background="@drawable/btn_popup_effect4" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:layout_marginLeft="330px"
+            android:layout_marginTop="110px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/btn_popup_music1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/btn_popup_music2"
+                android:layout_marginTop="14px" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:button="@null"
+                android:background="@drawable/btn_popup_music3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:layout_marginTop="14px"
+                android:background="@drawable/btn_popup_music4" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:layout_marginTop="14px"
+                android:background="@drawable/btn_popup_music5" />
+        </RadioGroup>
+
+        <com.yiqiding.ktvbox.widget.RepeatingButton
+            android:id="@+id/btn_microphone_raise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pop_raise_volume"
+            android:layout_marginLeft="570px"
+            android:layout_marginTop="110px" />
+
+        <com.yiqiding.ktvbox.widget.VerticalProgressBar
+            android:id="@+id/vp_microphone_1"
+            android:progressDrawable="@drawable/pb_popup"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="0"
+            android:max="80"
+            android:layout_marginTop="185px"
+            android:layout_marginLeft="620px"
+            android:layout_width="12px"
+            android:layout_height="110px" />
+        <com.yiqiding.ktvbox.widget.VerticalProgressBar
+            android:id="@+id/vp_microphone_2"
+            android:progressDrawable="@drawable/pb_popup"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="80"
+            android:max="80"
+            android:layout_marginTop="368px"
+            android:layout_marginLeft="620px"
+            android:layout_width="12px"
+            android:layout_height="115px" />
+        <com.yiqiding.ktvbox.widget.RepeatingButton
+            android:id="@+id/btn_microphone_reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pop_reduce_volume"
+            android:layout_marginLeft="570px"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="80px" />
+
+        <Button
+            android:id="@+id/btn_microphone_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pop_original_volume"
+            android:layout_marginLeft="570px"
+            android:layout_marginTop="290px" />
+
+        <CheckBox
+            android:id="@+id/cb_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_light"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="65px"
+            android:layout_marginRight="260px"
+            />
+        <CheckBox
+            android:id="@+id/cb_smooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_smooth"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="65px"
+            android:layout_marginRight="50px"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_romantic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_romantic"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="220px"
+            android:layout_marginRight="240px"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_power"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="225px"
+            android:layout_marginRight="50px"
+            />
+        <CheckBox
+            android:id="@+id/cb_meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_meeting"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="400px"
+            android:layout_marginRight="240px"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:background="@drawable/btn_pop_switch_light"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="405px"
+            android:layout_marginRight="50px"
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_ctrl_popup_close"
+        android:layout_gravity="right|top" />
+</FrameLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="52px"
+        android:layout_marginRight="50px"
+        android:paddingTop="15px"
+        android:paddingLeft="18px"
+        android:paddingRight="18px"
+        android:paddingBottom="45px"
+        android:background="@drawable/ctrl_volume_bg">
+        <!--microphone-->
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="40px"
+            >
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_microphone_raise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_raise"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                />
+
+
+            <com.yiqiding.ktvbox.widget.VerticalProgressBar
+                android:id="@+id/vp_microphone"
+                android:progressDrawable="@drawable/pb_popup"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/btn_microphone_raise"
+                android:layout_marginTop="-3px"
+                android:progress="50"
+                android:layout_width="12px"
+                android:layout_height="285px" />
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_microphone_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_reduce"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/btn_microphone_mark"
+                style="@style/btnVolumeBarMarkStyle"
+                android:text="50"
+                android:layout_toLeftOf="@id/vp_microphone"
+                />
+
+        </RelativeLayout>
+
+        <!--music-->
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="40px"
+            >
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_music_raise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_raise"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                />
+
+
+            <com.yiqiding.ktvbox.widget.VerticalProgressBar
+                android:id="@+id/vp_music"
+                android:progressDrawable="@drawable/pb_popup"
+                android:layout_centerInParent="true"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_below="@id/btn_music_raise"
+                android:progress="50"
+                android:layout_width="16px"
+                android:layout_height="285px" />
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_music_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_reduce"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                />
+            <Button
+                android:id="@+id/btn_music_mark"
+                style="@style/btnVolumeBarMarkStyle"
+                android:text="50"
+                android:layout_toLeftOf="@id/vp_music"
+                />
+
+        </RelativeLayout>
+
+        <!--power amplifier-->
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="40px"
+            >
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_power_raise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_raise"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                />
+
+
+            <com.yiqiding.ktvbox.widget.VerticalProgressBar
+                android:id="@+id/vp_power"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/pb_popup"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_below="@id/btn_power_raise"
+                android:progress="50"
+                android:layout_width="16px"
+                android:layout_height="285px"/>
+
+            <com.yiqiding.ktvbox.widget.RepeatingButton
+                android:id="@+id/btn_power_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ctrl_reduce"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/btn_power_mark"
+                style="@style/btnVolumeBarMarkStyle"
+                android:text="50"
+                android:layout_toLeftOf="@id/vp_power"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_ctrl_popup_close"
+        android:layout_gravity="right|top"
+        />
+</FrameLayout>
